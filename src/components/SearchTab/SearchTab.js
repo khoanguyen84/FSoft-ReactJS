@@ -57,7 +57,7 @@ function SearchTab() {
                         <tbody>
                             {
                                 students.map((std) => (
-                                    <tr className={std.java >= 5 && std.fe >= 5 && std.react >= 5 ? "row-active" : "bg-secondary"} id={`tr_${std.id}`} key={std.id}>
+                                    <tr className={std.java >= 5 && std.fe >= 5 && std.react >= 5 ? "row-active" : "bg-secondary text-white"} id={`tr_${std.id}`} key={std.id}>
                                         <td>{std.id}</td>
                                         <td>{std.studentName}</td>
                                         <td className="text-center">
@@ -75,24 +75,24 @@ function SearchTab() {
                     <div className="container">
                         <h3 className="text-center">Detail</h3>
                         <div className="d-flex flex-column">
-                            <div className="flex-grow-1 bg-primary py-2 text-center">
+                            <div className="flex-grow-1 bg-primary py-3 text-center text-white">
                                 {student.studentName}
                             </div>
-                            <div className="border d-flex justify-content-between align-items-center py-3">
+                            <div className="border border-primary d-flex justify-content-around align-items-center py-3">
                                 <div className="text-center w-25">
                                     <h6>Java</h6>
-                                    <div className="bg-success py-3">{student.java}</div>
+                                    <div className="bg-success py-3 text-white">{student.java}</div>
                                 </div>
                                 <div className="text-center w-25">
                                     <h6>FE</h6>
-                                    <div className="bg-success py-3">{student.fe}</div>
+                                    <div className="bg-success py-3 text-white">{student.fe}</div>
                                 </div>
                                 <div className=" text-center w-25">
                                     <h6>React</h6>
-                                    <div className="bg-success py-3">{student.react}</div>
+                                    <div className="bg-success py-3 text-white">{student.react}</div>
                                 </div>
                             </div>
-                            <div className="w-50 bg-primary py-2 text-center my-1 mx-auto">
+                            <div className="w-50 bg-primary py-4 text-center my-1 mx-auto text-white">
                                 <h6>{student.aveScore}</h6>
                             </div>
                         </div>
