@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "studentName": "Tuan Doan",
+        "java": 2,
+        "fe": 6,
+        "react": 5
+    },
+    {
+        "id": 2,
+        "studentName": "Linh Ho",
+        "java": 8,
+        "fe": 2,
+        "react": 6
+    },
+    {
+        "id": 3,
+        "studentName": "Thinh Dam",
+        "java": 5,
+        "fe": 8,
+        "react": 2
+    },
+    {
+        "id": 4,
+        "studentName": "Quang Vinh",
+        "java": 8,
+        "fe": 5,
+        "react": 6
+    },
+    {
+        "id": 5,
+        "studentName": "Son Tu",
+        "java": 3,
+        "fe": 3,
+        "react": 3
+    }
+]
